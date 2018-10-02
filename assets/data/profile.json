@@ -1,7 +1,52 @@
 {
-    "profile":{
-        "aboutMe":[
-            "I am fullstack developer at Barclays, Singapore. I am specialized in angular 6, Java, DevOps"
-        ]
+  "profile": {
+    "name": "Sudharsan tettu",
+    "designation": "Fullstack developer",
+    "location": "Singapore",
+    "image": "assets/images/me.jpg",
+    "social": [{
+        "site": "linkedin-in",
+        "url": "https://www.linkedin.com/in/tettusud/"
+      },
+      {
+        "site": "github",
+        "url": "https://www.github.com/tettusud/"
+      }
+    ],
+    "aboutMe": [
+      "I am fullstack developer at Barclays, Singapore. I am specialized in angular 6, Java, DevOps.",
+      "I am passionate about open source."
+    ]
+  },
+  "details": [{
+      "icon": "keyboard",
+      "title": "Skills",
+      "content": [
+        "Java, golanag, python",
+        "Angular(6), ReactJs",
+        "Jenkins, docker"
+      ]
+    },
+    {
+      "icon": "history",
+      "title": "Employment",
+      "content": [
+        "Barclays (2010)", "Cognizant (2009)", "Verizon (2005)"
+      ]
+    },
+    {
+      "icon": "book",
+      "title": "OpenSource",
+      "content": [
+        "Published <a href=\"https://github.com/tettusud/merge-jsons-webpack-plugin\">merge-jsons-webpack-plugin.</a>The npm plugin is used to merge more than one json files into one."
+      ]
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Education",
+      "content": [
+        "Bachelor of Technology in Elec and Comm engineering (2005)."
+      ]
     }
+  ]
 }
