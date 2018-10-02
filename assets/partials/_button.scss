@@ -1,0 +1,27 @@
+@import 'assets/partials/variables';
+
+
+$btn-height:40px;
+.btn-group{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+}
+.btn {
+  background-color: map-get($app-colors, btnBg);
+  display:block;
+  margin: 5px;
+  i{
+      color: #fff;
+      line-height: $btn-height;
+  }
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
+
+.btn-social {
+  width:  $btn-height;
+  height:  $btn-height;
+}

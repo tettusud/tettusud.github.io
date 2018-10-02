@@ -1,0 +1,40 @@
+@import 'assets/partials/variables';
+
+$card-radius:4px;
+$profile-img-size:90px;
+
+.card {
+  position: relative;
+  border-radius: $card-radius;
+  background-color: #fff;
+  .header {
+    font-family: 'Mali', cursive;
+    border-top-left-radius: $card-radius;
+    border-top-right-radius: $card-radius;
+    padding:10px 10px;
+    background-color: map-get($app-colors, cardHeader);
+    min-height: 250px;
+    text-align: center;
+    .title{
+        font-size: 1.1em;        
+    }
+  }
+  .profile-img {    
+    margin:20px auto;
+    height:$profile-img-size;
+    width:$profile-img-size  ; 
+  }
+
+  .content{
+      min-height:50px;
+      padding:10px;
+      .title{
+          font-size:1em;
+          font-weight: bold;
+      }
+      p{
+          text-indent: 20px;
+          font-size: 0.95em;
+      }
+  }
+}
